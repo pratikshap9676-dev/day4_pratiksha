@@ -1,0 +1,115 @@
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 40px 20px;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    body > p {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    form {
+        max-width: 600px;
+        margin: auto;
+        padding: 30px;
+
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 20px;
+
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    label {
+        font-weight: bold;
+        color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        margin-top: 8px;
+
+        border: 2px solid #ddd;
+        border-radius: 10px;
+
+        font-size: 15px;
+        outline: none;
+
+        transition: 0.3s;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    select:focus,
+    textarea:focus {
+        border-color: #667eea;
+        box-shadow: 0 0 8px rgba(102, 126, 234, 0.4);
+    }
+
+    select {
+        cursor: pointer;
+        background-color: white;
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        accent-color: #667eea;
+        cursor: pointer;
+    }
+
+    form p {
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 13px;
+
+        border: none;
+        border-radius: 10px;
+
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        color: white;
+
+        font-size: 17px;
+        font-weight: bold;
+
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    button:active {
+        transform: scale(0.98);
+    }
+</style>
